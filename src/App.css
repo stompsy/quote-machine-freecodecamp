@@ -1,0 +1,101 @@
+:root {
+	--color-bg: #1a1a1b;
+	--color-card: #242427;
+	--color-font-primary: #f0f0f0;
+	--color-font-secondary: #969696;
+	--color-shadow: #6b6bf3;
+}
+
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	background-color: var(--color-bg);
+	font-family: monospace;
+}
+
+h2 {
+	color: var(--color-font-primary);
+	margin-bottom: 20px;
+}
+
+a:link,
+a:visited,
+a:active {
+	color: var(--color-font-primary);
+}
+
+p {
+	color: var(--color-font-secondary);
+	margin-bottom: 20px;
+}
+
+.app {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	min-height: 100vh;
+	margin: 0 auto;
+}
+
+.card {
+	border-top-left-radius: 35px 140px;
+	border-top-right-radius: 25px 130px;
+	border-bottom-left-radius: 110px 20px;
+	border-bottom-right-radius: 120px 25px;
+
+	background-color: var(--color-card);
+	display: block;
+	position: relative;
+	border: solid 3px var(--color-card);
+	padding: 30px 40px;
+	max-width: 500px;
+	width: 70%;
+	font-size: 17px;
+	line-height: 28px;
+	transform: rotate(-1deg);
+	box-shadow: 3px 15px 8px -10px var(--color-shadow);
+}
+
+.author {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	margin-top: 20px;
+}
+
+.loading {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	min-height: 100vh;
+	margin: 0 auto;
+}
+
+.tweet {
+	padding-left: 20px;
+}
+
+#new-quote:hover,
+#tweet-quote:hover {
+	color: #c0c0c0;
+}
+
+#new-quote:visited,
+#tweet-quote:visited {
+	color: #c0c0c0;
+}
+
+@media screen and (max-width: 700px) {
+	.author {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		margin-top: 20px;
+	}
+}
