@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/quote-machine-freecodecamp/static/css/main.54a3266e.css",
+    "main.js": "/quote-machine-freecodecamp/static/js/main.0cd741d8.js",
+    "index.html": "/quote-machine-freecodecamp/index.html",
+    "main.54a3266e.css.map": "/quote-machine-freecodecamp/static/css/main.54a3266e.css.map",
+    "main.0cd741d8.js.map": "/quote-machine-freecodecamp/static/js/main.0cd741d8.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.54a3266e.css",
+    "static/js/main.0cd741d8.js"
+  ]
+}
